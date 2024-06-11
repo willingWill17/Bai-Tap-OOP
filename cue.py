@@ -1,6 +1,7 @@
 import pygame
 from constants import pos
-class Cue:
+from create import Create
+class Cue(Create):
     """
     Represents the pool cue and its actions.
     """

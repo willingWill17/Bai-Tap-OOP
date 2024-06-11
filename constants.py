@@ -1,31 +1,20 @@
 SCREEN_WIDTH = 1200
 SCREEN_HEIGHT = 680
 BOTTOM_PANEL = 50
-FPS = 120
+FPS = 240
 dia = 36
-force = 0
-pocket_dia = 66
+pocket_dia = 100
 max_force = 10000
-current_player = 1
 force_direction = 1
-game_running = True
-cue_ball_potted = False
-taking_shot = True
-powering_up = False
+
 potted_balls = []
 player1_balls = []
 player2_balls = []
 
-BG = (50, 50, 50)
-RED = (255, 0, 0)
-WHITE = (255, 255, 255)
-
 smooth=[1,2,3,4,5,6,7]
 non_smooth=[9,10,11,12,13,14,15]
 balls = []
-rows = 5
 pos = (888, SCREEN_HEIGHT / 2)
-
 pockets = [
     (55, 63),
     (592, 48),
@@ -34,7 +23,6 @@ pockets = [
     (592, 629),
     (1134, 616)
 ]
-
 cushions = [
     [(88, 56), (109, 77), (555, 77), (564, 56)],
     [(621, 56), (630, 77), (1081, 77), (1102, 56)],
